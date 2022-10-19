@@ -1,0 +1,40 @@
+body {
+  background-color: yellow;
+  padding-left: 300px;
+}
+.image {
+  max-width: 800px;
+  width: 100%;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+#search {
+  margin-left: -170px;
+}
+@media only screen and (max-width: 1130px) {
+  .cards {
+    gap: 50px;
+  }
+  body {
+    padding-left: 100px;
+  }
+  #search {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body {
+    padding: 0;
+  }
+  .cards {
+    margin: 0 auto;
+  }
+  .image {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 530) {
+  .cards {
+    width: 80vw;
+  }
+}
